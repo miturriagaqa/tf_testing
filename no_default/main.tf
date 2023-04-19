@@ -1,0 +1,1 @@
+variable "no_default" {}
