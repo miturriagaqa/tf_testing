@@ -19,7 +19,7 @@ resource "aws_instance" "app_server" {
   instance_type = "t1.micro"
 
   tags = {
-    Name = "mishawsinstancefromtf"
+    Name = var.instance_name
   }
 }
 
