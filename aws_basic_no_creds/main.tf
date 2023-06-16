@@ -22,3 +22,23 @@ resource "aws_instance" "app_server" {
     Name = "mishawsinstancefromtf"
   }
 }
+
+# Output hardcoded values
+output "message" {
+  value = "Hello, Terraform!"
+}
+
+output "number" {
+  value = 42
+}
+
+output "list" {
+  value = ["apple", "banana", "cherry"]
+}
+
+output "map" {
+  value = {
+    key1 = "value1"
+    key2 = "value2"
+  }
+}
