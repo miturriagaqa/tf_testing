@@ -3,3 +3,9 @@ variable "instance_name" {
   type        = string
   default     = "mishawsterraform"
 }
+
+variable "group_name" {
+  description = "Name of the security group"
+  type        = string
+  default     = "ssh-enabled-group"
+}
