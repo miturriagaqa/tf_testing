@@ -7,5 +7,5 @@ variable "instance_name" {
 variable "sec_groups" {
   description = "Name of the security group"
   type        = string
-  default     = "ssh-enabled-group"
+  default     = "default"
 }
