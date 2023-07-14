@@ -37,7 +37,7 @@ output "app_server_instance_type" {
 }
 
 output "security_group_id" {
-  value = aws_instance.app_server.security_group_names
+  value = aws_instance.app_server.security_groups
 }
 
 # Output hardcoded values
