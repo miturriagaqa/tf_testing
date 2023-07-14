@@ -37,7 +37,7 @@ output "app_server_instance_type" {
 }
 
 output "sec_groups" {
-  value    = var.sec_groups
+  value    = aws_instance.app_server.sec_groups
 }
 
 
