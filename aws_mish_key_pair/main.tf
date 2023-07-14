@@ -21,6 +21,7 @@ resource "aws_instance" "app_server"{
   ami           = "ami-0b301ce3ce347599c"
   instance_type = "t2.micro"
   key_name = data.aws_key_pair.existing_keypair.key_name
+  sec_groups = var.sec_groups
   
   tags = {
     Name = var.instance_name
