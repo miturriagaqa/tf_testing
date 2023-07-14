@@ -3,9 +3,3 @@ variable "instance_name" {
   type        = string
   default     = "mishawsterraform"
 }
-
-variable "sec_groups" {
-  description = "Security Group"
-  type        = string
-  default     = "Mish-Security"
-}
