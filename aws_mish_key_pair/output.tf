@@ -36,10 +36,9 @@ output "app_server_instance_type" {
   value     = aws_instance.app_server.instance_type
 }
 
-output "sec_groups" {
-  value    = aws_instance.app_server.sec_groups
+output "security_group_id" {
+  value = aws_instance.app_server.security_groups[0]
 }
-
 
 # Output hardcoded values
 output "message" {
