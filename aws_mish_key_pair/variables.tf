@@ -7,5 +7,5 @@ variable "instance_name" {
 variable "sec_groups" {
   description = "Security Group"
   type        = string
-  default     = ""
+  default     = "Mish-Security"
 }
