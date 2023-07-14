@@ -1,8 +1,8 @@
 variable "map_type_test" {
-  type = object({ name : string, content : number })
+  type = object({ name : string, content : string })
   default = {
     name    = "Mabel",
-    content = 52
+    content = "This is a test\n"
   }
 }
 
