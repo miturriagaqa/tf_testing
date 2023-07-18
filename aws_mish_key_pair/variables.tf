@@ -4,12 +4,12 @@ variable "instance_name" {
   default     = "mishawsterraform"
 }
 
-variable "access_key" {
+variable "AWS_ACCESS_KEY_ID" {
   description = "Value of the Access key for AWS"
   type        = string
 }
 
-variable "secret_key" {
+variable "AWS_SECRET_ACCESS_KEY" {
   description = "Value of the Secret Key for AWS"
   type        = string
 }
