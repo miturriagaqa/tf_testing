@@ -13,7 +13,7 @@ variable "list_type_test" {
 
 variable "another_list_type_test" {
   type    = list(any)
-  default = ["10.99.1.0/24", "10.99.2.0/24"]
+  default = ["0.0.0.0/24", "0.0.0.0/24"]
 }
 
 variable "bool_type_test" {
