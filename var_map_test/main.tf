@@ -11,6 +11,11 @@ variable "list_type_test" {
   default = ["red", "yellow", "green"]
 }
 
+variable "another_list_type_test" {
+  type    = list(any)
+  default = ["10.99.1.0/24", "10.99.2.0/24"]
+}
+
 variable "bool_type_test" {
   type    = bool
   default = false
@@ -49,6 +54,10 @@ output "my_map" {
 
 output "my_list" {
   value = var.list_type_test
+}
+
+output "my_list_another" {
+  value = var.another_list_type_test
 }
 
 output "my_bool" {
